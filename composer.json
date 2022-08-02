@@ -11,6 +11,10 @@
         {
             "type": "path",
             "url": "upstream-configuration"
+        },
+        {
+            "type": "vcs",
+            "url": "https://git.drupalcode.org/sandbox/jaykali-3299990.git"
         }
     ],
     "require": {
@@ -20,6 +24,7 @@
         "drupal/core-recommended": "^9.2",
         "pantheon-systems/drupal-integrations": "^9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/gatsby_example": "1.0.x-dev",
         "drush/drush": "^11 || ^12"
     },
     "require-dev": {
@@ -28,7 +33,7 @@
     "conflict": {
             "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "drupal-scaffold": {
